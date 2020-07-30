@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.chatra.io	TRUE	/	FALSE	1999999999	__cfduid	d13edf2743c94ef25000d1f6d0ce5acb61596119124
+call.chatra.io	TRUE	/	FALSE	1999999999	SameSite	Lax
+
