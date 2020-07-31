@@ -63,9 +63,49 @@
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   <link rel="stylesheet" href="style.css">
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-b86bc0c1-89d6-4bbb-9b66-17f7fa2ce4e4"></div>
+  <form class="gform pure-form pure-form-stacked" method="POST" data-email="leadmarketingexpert@gmail.com"
+  action="https://script.google.com/macros/s/AKfycbyyQe7idsYRYjBXXORKbIORptp_2JarhH5CAoxC3Q/exec">
+    <!-- change the form action to your script url -->
+
+    
+      <div class="icon">
+        <label class="cd-label" for="cd-name">Name</label>
+        <input class="user" type="text" name="name">
+        </div> 
+
+       
+
+        <div class="icon">
+          <label class="cd-label" for="cd-email">Email</label>
+        <input class="email error" type="email" name="email">
+        </div>
+      </fieldset>
+
+      
+
+  
+
+      <button class="button-success pure-button button-xlarge">
+        <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+    </div>
+
+    <!-- Customise the Thankyou Message People See when they submit the form: -->
+    <div class="thankyou_message" style="display:none;">
+      <h2><em>Thanks</em> for contacting us!
+        We will get back to you soon!</h2>
+    </div>
+
+  </form>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" src="form-submission-handler.js"></script>
+<!-- END -->
+
 
 
 
